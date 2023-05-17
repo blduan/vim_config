@@ -14,3 +14,9 @@ yes | sudo apt-get install libelf-dev
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 source ~/.bashrc
+
+#modify \\
+vi .vim/bundle/The-NERD-Commenter/plugin/NERD_commenter.vim
+"
+  then  modify as 'call s:CreateMaps('<plug>NERDCommenterToggle',     '<leader>\')'
+"
